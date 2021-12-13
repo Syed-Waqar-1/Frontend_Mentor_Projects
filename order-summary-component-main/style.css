@@ -12,7 +12,7 @@ body {
   background-image: url("images/pattern-background-desktop.svg");
   background-color: var(--Pale-blue);
   background-repeat: no-repeat;
-  background-size: 100% 45%;
+  background-size: 100% 40%;
 }
 img {
   max-width: 100%;
@@ -25,7 +25,7 @@ h3 {
 }
 p {
   color: var(--Desaturated-blue);
-  font-size: 0.75rem;
+  font-size: 1rem;
 }
 a {
   color: var(--Desaturated-blue);
@@ -60,16 +60,15 @@ button:hover{
   height: 92vh;
 }
 .inner_container {
-  max-width: 17.75rem;
+  max-width: 20rem;
   background-color: #ffff;
   border-radius: 14px;
   box-shadow: 0 20px 10px 0 hsla(245, 75%, 52%, 0.048);;
 }
 .inside_inner_container {
-  padding: 0 1.85rem 1.85rem;
-  display: grid;
-  grid-template-columns: 1fr;
-  align-items: center;
+  padding: 0.58rem 1.85rem 1.85rem;
+  display: flex;
+  flex-direction: column;
   text-align: center;
 }
 .inside_inner_container a{
@@ -85,7 +84,7 @@ margin: 0 12px;
 .main_content p{
   margin-top: 0.5rem;
   line-height: 1.5;
-  font-size: 0.65rem;
+  font-size: 0.75rem;
 }
 .subscription {
   display: grid;
@@ -119,10 +118,11 @@ margin: 0 12px;
   color: var(--Dark-blue);
   font-weight: 800;
   margin-bottom: 0;
-  font-size: 0.62rem;
+  font-size: 0.70rem;
 }
 .subscription p:last-of-type {
-  margin-top: 0.1rem;
+  margin-top: 0.4rem;
+  font-size: 0.75rem;
 }
 .attribution {
   font-size: 11px;
