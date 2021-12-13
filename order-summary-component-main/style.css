@@ -57,7 +57,7 @@ button:hover{
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 92vh;
+  height: 100vh;
 }
 .inner_container {
   max-width: 20rem;
